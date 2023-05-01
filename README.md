@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Results summary component solution
 
-## Getting Started
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![](./screenshoot.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Solution URL: [https://github.com/chadittya/results-summary-component](https://github.com/chadittya/results-summary-component)
+- Live Site URL: [https://results-summary-component.vercel.app/](https://results-summary-component.vercel.app/)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [tailwind CSS](https://tailwindcss.com/) - For styles
+
+### What I learned
+
+Through building this project, I learned several valuable lessons about working with JSON and highlighting code in Next.js 13. Some of the key takeaways include:
+
+1. The JSON.parse() method is a powerful tool for converting JSON strings into JavaScript objects that can be easily manipulated and displayed on a webpage.
+2. Next.js 13's built-in support for server-side syntax highlighting using react-syntax-highlighter allows for easy integration of highlighted code snippets into a project.
+3. When working with Tailwind CSS, it's important to understand how to conditionally apply styles based on data values. In this project, I used conditional classes to style category labels based on their values.
+
+Overall, this project helped me improve my skills in parsing JSON, styling with Tailwind CSS, and working with Next.js 13's latest features.
+
+## Author
+
+- Website - [Galih Arizza github](https://github.com/chadittya)
+- Frontend Mentor - [@chadittya](https://www.frontendmentor.io/profile/chadittya)
+- Twitter - [@galiharizza](https://www.twitter.com/galiharizza)
