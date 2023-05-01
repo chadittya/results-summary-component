@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/chadittya/results-summary-component](https://github.com/chadittya/results-summary-component)
-- Live Site URL: [https://results-summary-component.vercel.app/](https://results-summary-component.vercel.app/)
+- Live Site URL: [https://results-summary-component-roan-tau.vercel.app/](https://results-summary-component-roan-tau.vercel.app/)
 
 ## My process
 
